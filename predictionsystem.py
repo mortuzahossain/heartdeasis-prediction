@@ -283,7 +283,7 @@ class Ui_MainWindow(object):
         self.predectedresult.setText(_translate("MainWindow", "Predicted Results : %.2f" % prediction, None))
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Prediction System - Mortuza Hossain", None))
         self.predictButton.setText(_translate("MainWindow", "Predict", None))
         self.label.setText(_translate("MainWindow", "Age           :", None))
         self.label_2.setText(_translate("MainWindow", "Sex           :", None))
